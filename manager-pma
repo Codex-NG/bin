@@ -1,0 +1,5 @@
+printf "Installing phpMyAdmin..Only works if MySQL root password is still 'MYPASSWORD123'"
+wget htttps://raw.githubusercontent.com/NicolasLoew/vps/master/pma.sh
+chmod +x pma.sh
+./pma.sh
+printf "phpyAdmin has been installed."
