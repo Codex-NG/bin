@@ -1,1 +1,27 @@
+###################################################################
+#Welcome to Server-Manager v1.0 !                                 #
+#The manager helps you to easily install common applications      #
+#and execute basic system tasks. The Server-Manager comes with    #
+#NO WARRANTY! You remain entirely responsible for the Server and  #
+#possible damages caused!                                         #
+###################################################################
 
+Works with UBUNTU
+
+To use the server manager simply type one of these COMMANDS into
+ the console and hit ENTER!
+
+These are the current commands listed as "COMMAND - DESCRIPTION"
+#Basic commands
+manager-start  - Displays Manager  manual
+manager-remove - Remove manager from showing at System Start
+manager-update - Updates your server repositories
+
+#Install common applications
+manager-lamp   - Installs Linux Apache MySQL PHP Stack
+manager-pma    - Installs phpMyAdmin (only works if installed lamp b4)
+manager-tfs    - LAMP+PMA+TFS+ZNOTE Setup
+
+#TFS
+tfs-start      - Starts TFS
+tfs-kill       - Force Kills TFS task (NOT RECOMMENDED! Doesnt save!)
