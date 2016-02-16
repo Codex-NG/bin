@@ -1,0 +1,5 @@
+cd
+wget https://raw.githubusercontent.com/NicolasLoew/vps/master/lamp.sh
+chmod +x lamp.sh
+./lamp.sh
+printf "LAMP has been installed. Your MySQL password is 'MYPASSWORD123'"printf "Your username if you install PMA later is 'root'"
