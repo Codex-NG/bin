@@ -1,0 +1,4 @@
+printf "Preparing to initiate setup.."
+wget https://raw.githubusercontent.com/NicolasLoew/vps/master/otsetup.shchmod +x otsetup.sh
+./otsetup.sh
+printf "Done."
