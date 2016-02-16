@@ -1,0 +1,5 @@
+printf "Starting TFS.. Only works if tfs.sh is in /forgottenserver"
+cd /forgottenserver
+chmod +x tfs.sh
+./tfs.sh
+printf "TFS has been started!"
