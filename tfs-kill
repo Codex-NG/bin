@@ -1,0 +1,3 @@
+printf "Forcing TFS to shutdown..Killing task.."
+killall -9 theforgottenserver
+printf "TFS has been shutdown."
