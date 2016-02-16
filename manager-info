@@ -12,6 +12,8 @@ To use the server manager simply type one of these COMMANDS into
  the console and hit ENTER!
 
 These are the current commands listed as "COMMAND - DESCRIPTION"
+#System
+reboot         - Initiates immediate reboot of vps
 #Basic commands
 manager-start  - Displays Manager  manual
 manager-remove - Remove manager from showing at System Start
