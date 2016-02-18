@@ -1,5 +1,7 @@
+printf "Checking for updates.."
 cd
 cd bin
 git pull
 cd
 chmod -R 777 bin
+printf "Done!"
