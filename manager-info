@@ -14,10 +14,11 @@ To use the server manager simply type one of these COMMANDS into
 These are the current commands listed as "COMMAND - DESCRIPTION"
 #System
 reboot         - Initiates immediate reboot of vps
+apt-get update - Updates system repositories
 #Basic commands
 manager-start  - Displays Manager  manual
 manager-remove - Remove manager from showing at System Start
-manager-update - Updates your server repositories
+manager-update - Updates Manager to latest version
 
 #Install common applications
 manager-lamp   - Installs Linux Apache MySQL PHP Stack
