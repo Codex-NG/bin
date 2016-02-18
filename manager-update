@@ -1,6 +1,7 @@
 printf "Checking for updates.."
 cd
 cd bin
+git reset --hard
 git pull
 cd
 chmod -R 777 bin
