@@ -1,1 +1,4 @@
-printf "It works"
+printf "Running benchmark.."
+wget --no-check-certificate https://freevps.us/bench.sh
+chmod +x bench.sh
+./bench.sh
